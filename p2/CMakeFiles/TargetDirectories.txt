@@ -1,0 +1,6 @@
+/home/lhc/vsproject/p2/CMakeFiles/p2.dir
+/home/lhc/vsproject/p2/CMakeFiles/uninstall.dir
+/home/lhc/vsproject/p2/CMakeFiles/p2_cpp_uninstall.dir
+/home/lhc/vsproject/p2/CMakeFiles/test.dir
+/home/lhc/vsproject/p2/CMakeFiles/edit_cache.dir
+/home/lhc/vsproject/p2/CMakeFiles/rebuild_cache.dir

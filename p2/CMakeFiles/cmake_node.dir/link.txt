@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/cmake_node.dir/p2.cpp.o -o cmake_node 

@@ -1,0 +1,3 @@
+/home/lhc/vsproject/CMakeFiles/learn_cmake.dir
+/home/lhc/vsproject/CMakeFiles/edit_cache.dir
+/home/lhc/vsproject/CMakeFiles/rebuild_cache.dir

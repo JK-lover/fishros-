@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.8)
+project(p2_cpp)
+add_executable(p2 p2.cpp)
+
+find_package(rclcpp REQUIRED)           #查找到对应头文件和库文件
+message(STATUS ${rclcpp_INCLUDE_DIRS})  #头文件
+message(STATUS ${rclcpp_LIBRARIES})     #库文件
+
+target_include_directories(p2 PUBLIC ${rclcpp_INCLUDE_DIRS}) #头文件包含
+target_link_libraries(p2 ${rclcpp_LIBRARIES})                #库文件连接
+
