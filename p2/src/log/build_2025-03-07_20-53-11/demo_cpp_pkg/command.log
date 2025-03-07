@@ -1,6 +1,0 @@
-Invoking command in '/home/lhc/fishros-/p2/src/build/demo_cpp_pkg': /usr/bin/cmake /home/lhc/fishros-/p2/src/demo_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/lhc/fishros-/p2/src/install/demo_cpp_pkg
-Invoked command in '/home/lhc/fishros-/p2/src/build/demo_cpp_pkg' returned '0': /usr/bin/cmake /home/lhc/fishros-/p2/src/demo_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/lhc/fishros-/p2/src/install/demo_cpp_pkg
-Invoking command in '/home/lhc/fishros-/p2/src/build/demo_cpp_pkg': /usr/bin/cmake --build /home/lhc/fishros-/p2/src/build/demo_cpp_pkg -- -j12 -l12
-Invoked command in '/home/lhc/fishros-/p2/src/build/demo_cpp_pkg' returned '0': /usr/bin/cmake --build /home/lhc/fishros-/p2/src/build/demo_cpp_pkg -- -j12 -l12
-Invoking command in '/home/lhc/fishros-/p2/src/build/demo_cpp_pkg': /usr/bin/cmake --install /home/lhc/fishros-/p2/src/build/demo_cpp_pkg
-Invoked command in '/home/lhc/fishros-/p2/src/build/demo_cpp_pkg' returned '0': /usr/bin/cmake --install /home/lhc/fishros-/p2/src/build/demo_cpp_pkg
