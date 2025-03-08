@@ -1,0 +1,7 @@
+[35m[1mScanning dependencies of target learn_functional[0m
+[ 58%] Built target learn_shared
+[ 58%] Built target learn_auto
+[ 58%] [32mBuilding CXX object CMakeFiles/learn_functional.dir/src/learn_functional.cpp.o[0m
+[ 58%] Built target learn_lambda
+[ 75%] Built target person_node
+[ 91%] Built target cpp_node

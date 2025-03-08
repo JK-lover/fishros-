@@ -134,6 +134,8 @@
     "source_location": "cpp",
     "future": "cpp",
     "shared_mutex": "cpp",
-    "stdfloat": "cpp"
-  }
+    "stdfloat": "cpp",
+    "ranges": "cpp"
+  },
+  "C_Cpp.errorSquiggles": "disabled"
 }

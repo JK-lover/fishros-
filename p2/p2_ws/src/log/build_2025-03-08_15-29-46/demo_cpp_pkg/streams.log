@@ -1,0 +1,33 @@
+[0.014s] Invoking command in '/home/lhc/fishros-/p2/p2_ws/src/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/lhc/fishros-/p2/p2_ws/src/build/demo_cpp_pkg -- -j12 -l12
+[0.050s] [35m[1mScanning dependencies of target learn_lambda[0m
+[0.056s] [ 50%] Built target learn_auto
+[0.057s] [ 40%] [32mBuilding CXX object CMakeFiles/learn_lambda.dir/src/learn_lambda.cpp.o[0m
+[0.057s] [ 50%] Built target learn_shared
+[0.066s] [ 90%] Built target person_node
+[0.066s] [ 90%] Built target cpp_node
+[0.369s] [100%] [32m[1mLinking CXX executable learn_lambda[0m
+[0.442s] [100%] Built target learn_lambda
+[0.452s] Invoked command in '/home/lhc/fishros-/p2/p2_ws/src/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/lhc/fishros-/p2/p2_ws/src/build/demo_cpp_pkg -- -j12 -l12
+[0.462s] Invoking command in '/home/lhc/fishros-/p2/p2_ws/src/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/lhc/fishros-/p2/p2_ws/src/build/demo_cpp_pkg
+[0.469s] -- Install configuration: ""
+[0.470s] -- Up-to-date: /home/lhc/fishros-/p2/p2_ws/src/install/demo_cpp_pkg/lib/demo_cpp_pkg/cpp_node
+[0.470s] -- Up-to-date: /home/lhc/fishros-/p2/p2_ws/src/install/demo_cpp_pkg/lib/demo_cpp_pkg/person_node
+[0.470s] -- Up-to-date: /home/lhc/fishros-/p2/p2_ws/src/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_auto
+[0.470s] -- Up-to-date: /home/lhc/fishros-/p2/p2_ws/src/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_shared
+[0.470s] -- Installing: /home/lhc/fishros-/p2/p2_ws/src/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_lambda
+[0.470s] -- Up-to-date: /home/lhc/fishros-/p2/p2_ws/src/install/demo_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/demo_cpp_pkg
+[0.470s] -- Up-to-date: /home/lhc/fishros-/p2/p2_ws/src/install/demo_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/demo_cpp_pkg
+[0.470s] -- Up-to-date: /home/lhc/fishros-/p2/p2_ws/src/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.sh
+[0.471s] -- Up-to-date: /home/lhc/fishros-/p2/p2_ws/src/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.dsv
+[0.471s] -- Up-to-date: /home/lhc/fishros-/p2/p2_ws/src/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.sh
+[0.471s] -- Up-to-date: /home/lhc/fishros-/p2/p2_ws/src/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.dsv
+[0.471s] -- Up-to-date: /home/lhc/fishros-/p2/p2_ws/src/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.bash
+[0.471s] -- Up-to-date: /home/lhc/fishros-/p2/p2_ws/src/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.sh
+[0.471s] -- Up-to-date: /home/lhc/fishros-/p2/p2_ws/src/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.zsh
+[0.471s] -- Up-to-date: /home/lhc/fishros-/p2/p2_ws/src/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.dsv
+[0.471s] -- Up-to-date: /home/lhc/fishros-/p2/p2_ws/src/install/demo_cpp_pkg/share/demo_cpp_pkg/package.dsv
+[0.471s] -- Up-to-date: /home/lhc/fishros-/p2/p2_ws/src/install/demo_cpp_pkg/share/ament_index/resource_index/packages/demo_cpp_pkg
+[0.472s] -- Up-to-date: /home/lhc/fishros-/p2/p2_ws/src/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig.cmake
+[0.472s] -- Up-to-date: /home/lhc/fishros-/p2/p2_ws/src/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig-version.cmake
+[0.472s] -- Up-to-date: /home/lhc/fishros-/p2/p2_ws/src/install/demo_cpp_pkg/share/demo_cpp_pkg/package.xml
+[0.472s] Invoked command in '/home/lhc/fishros-/p2/p2_ws/src/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/lhc/fishros-/p2/p2_ws/src/build/demo_cpp_pkg

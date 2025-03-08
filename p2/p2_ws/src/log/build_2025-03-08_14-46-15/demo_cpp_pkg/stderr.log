@@ -1,0 +1,5 @@
+CMake Error at CMakeLists.txt:22 (install):
+  install TARGETS given target "learn_auto" which does not exist.
+
+
+make: *** [Makefile:354：cmake_check_build_system] 错误 1

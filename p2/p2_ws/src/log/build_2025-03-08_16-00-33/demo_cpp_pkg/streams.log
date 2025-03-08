@@ -1,0 +1,44 @@
+[0.009s] Invoking command in '/home/lhc/fishros-/p2/p2_ws/src/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/lhc/fishros-/p2/p2_ws/src/build/demo_cpp_pkg -- -j12 -l12
+[0.041s] [35m[1mScanning dependencies of target learn_functional[0m
+[0.049s] [ 58%] Built target learn_shared
+[0.049s] [ 58%] Built target learn_auto
+[0.049s] [ 58%] [32mBuilding CXX object CMakeFiles/learn_functional.dir/src/learn_functional.cpp.o[0m
+[0.049s] [ 58%] Built target learn_lambda
+[0.055s] [ 75%] Built target person_node
+[0.055s] [ 91%] Built target cpp_node
+[0.315s] [01m[K/home/lhc/fishros-/p2/p2_ws/src/demo_cpp_pkg/src/learn_functional.cpp:[m[K In function ‘[01m[Kvoid save_with_free_fun(const string&)[m[K’:
+[0.315s] [01m[K/home/lhc/fishros-/p2/p2_ws/src/demo_cpp_pkg/src/learn_functional.cpp:5:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfile_name[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.315s]     5 | void save_with_free_fun([01;35m[Kconst std::string &file_name[m[K)
+[0.315s]       |                         [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[0.315s] [01m[K/home/lhc/fishros-/p2/p2_ws/src/demo_cpp_pkg/src/learn_functional.cpp:[m[K In member function ‘[01m[Kvoid filsave::save_with_member_fun(const string&)[m[K’:
+[0.316s] [01m[K/home/lhc/fishros-/p2/p2_ws/src/demo_cpp_pkg/src/learn_functional.cpp:14:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfile_name[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.316s]    14 |     void save_with_member_fun([01;35m[Kconst std::string &file_name[m[K)
+[0.316s]       |                               [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[0.316s] [01m[K/home/lhc/fishros-/p2/p2_ws/src/demo_cpp_pkg/src/learn_functional.cpp:[m[K In lambda function:
+[0.316s] [01m[K/home/lhc/fishros-/p2/p2_ws/src/demo_cpp_pkg/src/learn_functional.cpp:25:36:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K}[m[K’ token
+[0.316s]    25 |     { const std::string &file_name [01;31m[K}[m[K -> void
+[0.316s]       |                                    [01;31m[K^[m[K
+[0.316s] [01m[K/home/lhc/fishros-/p2/p2_ws/src/demo_cpp_pkg/src/learn_functional.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[0.316s] [01m[K/home/lhc/fishros-/p2/p2_ws/src/demo_cpp_pkg/src/learn_functional.cpp:25:38:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kmain()::<lambda()>[m[K’
+[0.316s]    25 |     { const std::string &file_name } [01;31m[K->[m[K void
+[0.316s]       |                                      [01;31m[K^~[m[K
+[0.316s] [01m[K/home/lhc/fishros-/p2/p2_ws/src/demo_cpp_pkg/src/learn_functional.cpp:25:41:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kvoid[m[K’
+[0.316s]    25 |     { const std::string &file_name } -> [01;31m[Kvoid[m[K
+[0.316s]       |                                         [01;31m[K^~~~[m[K
+[0.316s] [01m[K/home/lhc/fishros-/p2/p2_ws/src/demo_cpp_pkg/src/learn_functional.cpp:35:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kstd[m[K’
+[0.316s]    35 |     [01;31m[Kstd[m[K::function<void(const std::string &file_name)> save1 = save_with_free_fun;
+[0.316s]       |     [01;31m[K^~~[m[K
+[0.316s] [01m[K/home/lhc/fishros-/p2/p2_ws/src/demo_cpp_pkg/src/learn_functional.cpp:39:68:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[K<unresolved overloaded function type>[m[K’ to non-scalar type ‘[01m[Kstd::function<void(const std::__cxx11::basic_string<char>&)>[m[K’ requested
+[0.317s]    39 |     std::function<void(const std::string &file_name)> save3 = std::[01;31m[Kbind[m[K
+[0.317s]       |                                                                    [01;31m[K^~~~[m[K
+[0.317s] [01m[K/home/lhc/fishros-/p2/p2_ws/src/demo_cpp_pkg/src/learn_functional.cpp:44:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksave1[m[K’ was not declared in this scope; did you mean ‘[01m[Ksave3[m[K’?
+[0.317s]    44 |     [01;31m[Ksave1[m[K("file.txt");
+[0.317s]       |     [01;31m[K^~~~~[m[K
+[0.317s]       |     [32m[Ksave3[m[K
+[0.317s] [01m[K/home/lhc/fishros-/p2/p2_ws/src/demo_cpp_pkg/src/learn_functional.cpp:22:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kf1[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[0.317s]    22 |     filsave [01;35m[Kf1[m[K;
+[0.317s]       |             [01;35m[K^~[m[K
+[0.349s] make[2]: *** [CMakeFiles/learn_functional.dir/build.make:63：CMakeFiles/learn_functional.dir/src/learn_functional.cpp.o] 错误 1
+[0.349s] make[1]: *** [CMakeFiles/Makefile2:250：CMakeFiles/learn_functional.dir/all] 错误 2
+[0.349s] make: *** [Makefile:141：all] 错误 2
+[0.351s] Invoked command in '/home/lhc/fishros-/p2/p2_ws/src/build/demo_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/lhc/fishros-/p2/p2_ws/src/build/demo_cpp_pkg -- -j12 -l12

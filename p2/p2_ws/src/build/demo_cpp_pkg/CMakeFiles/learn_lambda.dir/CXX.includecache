@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lhc/fishros-/p2/p2_ws/src/demo_cpp_pkg/src/learn_lambda.cpp
+iostream
+-
+algorithm
+-
+

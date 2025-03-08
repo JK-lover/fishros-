@@ -1,0 +1,4 @@
+[01m[K/home/lhc/fishros-/p2/p2_ws/src/demo_cpp_pkg/src/learn_lambda.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/lhc/fishros-/p2/p2_ws/src/demo_cpp_pkg/src/learn_lambda.cpp:9:10:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kprint_sum[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+    9 |     auto [01;35m[Kprint_sum[m[K = [sum]() -> void
+      |          [01;35m[K^~~~~~~~~[m[K

@@ -1,0 +1,26 @@
+[0.009s] Invoking command in '/home/lhc/fishros-/p2/p2_ws/src/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/lhc/fishros-/p2/p2_ws/src/build/demo_cpp_pkg -- -j12 -l12
+[0.031s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.046s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.170s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.194s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.196s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.274s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.308s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.309s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.411s] CMake Error at CMakeLists.txt:22 (install):
+[0.411s]   install TARGETS given target "learn_auto" which does not exist.
+[0.411s] 
+[0.411s] 
+[0.411s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.469s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.469s] -- Configured cppcheck include dirs: 
+[0.470s] -- Configured cppcheck exclude dirs and/or files: 
+[0.470s] -- Added test 'lint_cmake' to check CMake code style
+[0.470s] -- Added test 'uncrustify' to check C / C++ code style
+[0.470s] -- Configured uncrustify additional arguments: 
+[0.470s] -- Added test 'xmllint' to check XML markup files
+[0.472s] -- Configuring incomplete, errors occurred!
+[0.472s] See also "/home/lhc/fishros-/p2/p2_ws/src/build/demo_cpp_pkg/CMakeFiles/CMakeOutput.log".
+[0.472s] See also "/home/lhc/fishros-/p2/p2_ws/src/build/demo_cpp_pkg/CMakeFiles/CMakeError.log".
+[0.476s] make: *** [Makefile:354：cmake_check_build_system] 错误 1
+[0.477s] Invoked command in '/home/lhc/fishros-/p2/p2_ws/src/build/demo_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/lhc/fishros-/p2/p2_ws/src/build/demo_cpp_pkg -- -j12 -l12

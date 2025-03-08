@@ -1,0 +1,47 @@
+[0.009s] Invoking command in '/home/lhc/fishros-/p2/p2_ws/src/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/lhc/fishros-/p2/p2_ws/src/build/demo_cpp_pkg -- -j12 -l12
+[0.044s] [35m[1mScanning dependencies of target learn_functional[0m
+[0.051s] [ 50%] Built target learn_shared
+[0.051s] [ 58%] Built target learn_auto
+[0.051s] [ 50%] [32mBuilding CXX object CMakeFiles/learn_functional.dir/src/learn_functional.cpp.o[0m
+[0.052s] [ 58%] Built target learn_lambda
+[0.058s] [ 91%] Built target cpp_node
+[0.058s] [ 91%] Built target person_node
+[0.302s] [01m[K/home/lhc/fishros-/p2/p2_ws/src/demo_cpp_pkg/src/learn_functional.cpp:[m[K In function ‘[01m[Kvoid save_with_free_fun(const string&)[m[K’:
+[0.302s] [01m[K/home/lhc/fishros-/p2/p2_ws/src/demo_cpp_pkg/src/learn_functional.cpp:5:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfile_name[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.302s]     5 | void save_with_free_fun([01;35m[Kconst std::string &file_name[m[K)
+[0.302s]       |                         [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[0.302s] [01m[K/home/lhc/fishros-/p2/p2_ws/src/demo_cpp_pkg/src/learn_functional.cpp:[m[K In member function ‘[01m[Kvoid filsave::save_with_member_fun(const string&)[m[K’:
+[0.303s] [01m[K/home/lhc/fishros-/p2/p2_ws/src/demo_cpp_pkg/src/learn_functional.cpp:13:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfile_name[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.303s]    13 |     void save_with_member_fun([01;35m[Kconst std::string &file_name[m[K)
+[0.303s]       |                               [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[0.303s] [01m[K/home/lhc/fishros-/p2/p2_ws/src/demo_cpp_pkg/src/learn_functional.cpp:[m[K In lambda function:
+[0.303s] [01m[K/home/lhc/fishros-/p2/p2_ws/src/demo_cpp_pkg/src/learn_functional.cpp:23:55:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfile_name[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.303s]    23 |     auto save_with_lambda_fun = []([01;35m[Kconst std::string &file_name[m[K) -> void
+[0.303s]       |                                    [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[0.403s] [100%] [32m[1mLinking CXX executable learn_functional[0m
+[0.461s] [100%] Built target learn_functional
+[0.468s] Invoked command in '/home/lhc/fishros-/p2/p2_ws/src/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/lhc/fishros-/p2/p2_ws/src/build/demo_cpp_pkg -- -j12 -l12
+[0.479s] Invoking command in '/home/lhc/fishros-/p2/p2_ws/src/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/lhc/fishros-/p2/p2_ws/src/build/demo_cpp_pkg
+[0.483s] -- Install configuration: ""
+[0.483s] -- Up-to-date: /home/lhc/fishros-/p2/p2_ws/src/install/demo_cpp_pkg/lib/demo_cpp_pkg/cpp_node
+[0.483s] -- Up-to-date: /home/lhc/fishros-/p2/p2_ws/src/install/demo_cpp_pkg/lib/demo_cpp_pkg/person_node
+[0.484s] -- Up-to-date: /home/lhc/fishros-/p2/p2_ws/src/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_auto
+[0.484s] -- Up-to-date: /home/lhc/fishros-/p2/p2_ws/src/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_shared
+[0.484s] -- Up-to-date: /home/lhc/fishros-/p2/p2_ws/src/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_lambda
+[0.484s] -- Installing: /home/lhc/fishros-/p2/p2_ws/src/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_functional
+[0.484s] -- Up-to-date: /home/lhc/fishros-/p2/p2_ws/src/install/demo_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/demo_cpp_pkg
+[0.484s] -- Up-to-date: /home/lhc/fishros-/p2/p2_ws/src/install/demo_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/demo_cpp_pkg
+[0.484s] -- Up-to-date: /home/lhc/fishros-/p2/p2_ws/src/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.sh
+[0.484s] -- Installing: /home/lhc/fishros-/p2/p2_ws/src/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.dsv
+[0.484s] -- Up-to-date: /home/lhc/fishros-/p2/p2_ws/src/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.sh
+[0.485s] -- Installing: /home/lhc/fishros-/p2/p2_ws/src/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.dsv
+[0.485s] -- Up-to-date: /home/lhc/fishros-/p2/p2_ws/src/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.bash
+[0.485s] -- Up-to-date: /home/lhc/fishros-/p2/p2_ws/src/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.sh
+[0.485s] -- Up-to-date: /home/lhc/fishros-/p2/p2_ws/src/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.zsh
+[0.485s] -- Installing: /home/lhc/fishros-/p2/p2_ws/src/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.dsv
+[0.485s] -- Installing: /home/lhc/fishros-/p2/p2_ws/src/install/demo_cpp_pkg/share/demo_cpp_pkg/package.dsv
+[0.485s] -- Up-to-date: /home/lhc/fishros-/p2/p2_ws/src/install/demo_cpp_pkg/share/ament_index/resource_index/packages/demo_cpp_pkg
+[0.485s] -- Up-to-date: /home/lhc/fishros-/p2/p2_ws/src/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig.cmake
+[0.485s] -- Up-to-date: /home/lhc/fishros-/p2/p2_ws/src/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig-version.cmake
+[0.485s] -- Up-to-date: /home/lhc/fishros-/p2/p2_ws/src/install/demo_cpp_pkg/share/demo_cpp_pkg/package.xml
+[0.486s] Invoked command in '/home/lhc/fishros-/p2/p2_ws/src/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/lhc/fishros-/p2/p2_ws/src/build/demo_cpp_pkg

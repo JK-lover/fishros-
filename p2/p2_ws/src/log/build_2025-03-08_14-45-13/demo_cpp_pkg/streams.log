@@ -1,0 +1,20 @@
+[0.010s] Invoking command in '/home/lhc/fishros-/p2/p2_ws/src/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/lhc/fishros-/p2/p2_ws/src/build/demo_cpp_pkg -- -j12 -l12
+[0.037s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.052s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.176s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.197s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.199s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.278s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.310s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.311s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.407s] CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+[0.407s]   ament_target_dependencies() the first argument must be a valid target name
+[0.407s] Call Stack (most recent call first):
+[0.407s]   CMakeLists.txt:20 (ament_target_dependencies)
+[0.407s] 
+[0.407s] 
+[0.407s] -- Configuring incomplete, errors occurred!
+[0.407s] See also "/home/lhc/fishros-/p2/p2_ws/src/build/demo_cpp_pkg/CMakeFiles/CMakeOutput.log".
+[0.408s] See also "/home/lhc/fishros-/p2/p2_ws/src/build/demo_cpp_pkg/CMakeFiles/CMakeError.log".
+[0.413s] make: *** [Makefile:310：cmake_check_build_system] 错误 1
+[0.415s] Invoked command in '/home/lhc/fishros-/p2/p2_ws/src/build/demo_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/lhc/fishros-/p2/p2_ws/src/build/demo_cpp_pkg -- -j12 -l12
