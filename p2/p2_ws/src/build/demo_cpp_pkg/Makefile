@@ -91,6 +91,18 @@ test/fast: test
 
 .PHONY : test/fast
 
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
+
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -122,18 +134,6 @@ list_install_components:
 list_install_components/fast: list_install_components
 
 .PHONY : list_install_components/fast
-
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install
-
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -179,19 +179,6 @@ demo_cpp_pkg_uninstall: cmake_check_build_system
 demo_cpp_pkg_uninstall/fast:
 	$(MAKE) -f CMakeFiles/demo_cpp_pkg_uninstall.dir/build.make CMakeFiles/demo_cpp_pkg_uninstall.dir/build
 .PHONY : demo_cpp_pkg_uninstall/fast
-
-#=============================================================================
-# Target rules for targets named cpp_node
-
-# Build rule for target.
-cpp_node: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 cpp_node
-.PHONY : cpp_node
-
-# fast build rule for target.
-cpp_node/fast:
-	$(MAKE) -f CMakeFiles/cpp_node.dir/build.make CMakeFiles/cpp_node.dir/build
-.PHONY : cpp_node/fast
 
 #=============================================================================
 # Target rules for targets named learn_lambda
@@ -270,6 +257,32 @@ learn_shared: cmake_check_build_system
 learn_shared/fast:
 	$(MAKE) -f CMakeFiles/learn_shared.dir/build.make CMakeFiles/learn_shared.dir/build
 .PHONY : learn_shared/fast
+
+#=============================================================================
+# Target rules for targets named cpp_node
+
+# Build rule for target.
+cpp_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cpp_node
+.PHONY : cpp_node
+
+# fast build rule for target.
+cpp_node/fast:
+	$(MAKE) -f CMakeFiles/cpp_node.dir/build.make CMakeFiles/cpp_node.dir/build
+.PHONY : cpp_node/fast
+
+#=============================================================================
+# Target rules for targets named learn_thread
+
+# Build rule for target.
+learn_thread: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 learn_thread
+.PHONY : learn_thread
+
+# fast build rule for target.
+learn_thread/fast:
+	$(MAKE) -f CMakeFiles/learn_thread.dir/build.make CMakeFiles/learn_thread.dir/build
+.PHONY : learn_thread/fast
 
 src/cpp_node.o: src/cpp_node.cpp.o
 
@@ -406,6 +419,33 @@ src/learn_shared.cpp.s:
 	$(MAKE) -f CMakeFiles/learn_shared.dir/build.make CMakeFiles/learn_shared.dir/src/learn_shared.cpp.s
 .PHONY : src/learn_shared.cpp.s
 
+src/learn_thread.o: src/learn_thread.cpp.o
+
+.PHONY : src/learn_thread.o
+
+# target to build an object file
+src/learn_thread.cpp.o:
+	$(MAKE) -f CMakeFiles/learn_thread.dir/build.make CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o
+.PHONY : src/learn_thread.cpp.o
+
+src/learn_thread.i: src/learn_thread.cpp.i
+
+.PHONY : src/learn_thread.i
+
+# target to preprocess a source file
+src/learn_thread.cpp.i:
+	$(MAKE) -f CMakeFiles/learn_thread.dir/build.make CMakeFiles/learn_thread.dir/src/learn_thread.cpp.i
+.PHONY : src/learn_thread.cpp.i
+
+src/learn_thread.s: src/learn_thread.cpp.s
+
+.PHONY : src/learn_thread.s
+
+# target to generate assembly for a file
+src/learn_thread.cpp.s:
+	$(MAKE) -f CMakeFiles/learn_thread.dir/build.make CMakeFiles/learn_thread.dir/src/learn_thread.cpp.s
+.PHONY : src/learn_thread.cpp.s
+
 src/person_node.o: src/person_node.cpp.o
 
 .PHONY : src/person_node.o
@@ -442,18 +482,19 @@ help:
 	@echo "... install/strip"
 	@echo "... install/local"
 	@echo "... demo_cpp_pkg_uninstall"
-	@echo "... cpp_node"
 	@echo "... learn_lambda"
 	@echo "... person_node"
 	@echo "... uninstall"
 	@echo "... test"
 	@echo "... learn_auto"
 	@echo "... learn_functional"
+	@echo "... install"
+	@echo "... learn_shared"
+	@echo "... cpp_node"
+	@echo "... learn_thread"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... list_install_components"
-	@echo "... learn_shared"
-	@echo "... install"
 	@echo "... src/cpp_node.o"
 	@echo "... src/cpp_node.i"
 	@echo "... src/cpp_node.s"
@@ -469,6 +510,9 @@ help:
 	@echo "... src/learn_shared.o"
 	@echo "... src/learn_shared.i"
 	@echo "... src/learn_shared.s"
+	@echo "... src/learn_thread.o"
+	@echo "... src/learn_thread.i"
+	@echo "... src/learn_thread.s"
 	@echo "... src/person_node.o"
 	@echo "... src/person_node.i"
 	@echo "... src/person_node.s"

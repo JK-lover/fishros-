@@ -1,0 +1,17 @@
+[0.009s] Invoking command in '/home/lhc/fishros-/p2/p2_ws/src/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/lhc/fishros-/p2/p2_ws/src/build/demo_cpp_pkg -- -j12 -l12
+[0.046s] [35m[1mScanning dependencies of target learn_thread[0m
+[0.054s] [ 42%] Built target learn_lambda
+[0.054s] [ 42%] [32mBuilding CXX object CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o[0m
+[0.054s] [ 50%] Built target learn_shared
+[0.054s] [ 50%] Built target learn_auto
+[0.054s] [ 64%] Built target learn_functional
+[0.059s] [ 78%] Built target person_node
+[0.061s] [ 92%] Built target cpp_node
+[3.749s] [100%] [32m[1mLinking CXX executable learn_thread[0m
+[3.855s] /usr/bin/ld: CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o: in function `std::thread::thread<std::_Bind<void (Download::*(Download*, std::_Placeholder<1>, std::_Placeholder<2>, std::_Placeholder<3>))(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::function<void (std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)> const&)>&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::function<void (std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)> const&, void>(std::_Bind<void (Download::*(Download*, std::_Placeholder<1>, std::_Placeholder<2>, std::_Placeholder<3>))(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::function<void (std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)> const&)>&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::function<void (std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)> const&)':
+[3.855s] learn_thread.cpp:(.text._ZNSt6threadC2IRSt5_BindIFM8DownloadFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESA_RKSt8functionIFvSA_SA_EEEPS2_St12_PlaceholderILi1EESJ_ILi2EESJ_ILi3EEEEJSA_SA_SF_EvEEOT_DpOT0_[_ZNSt6threadC5IRSt5_BindIFM8DownloadFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESA_RKSt8functionIFvSA_SA_EEEPS2_St12_PlaceholderILi1EESJ_ILi2EESJ_ILi3EEEEJSA_SA_SF_EvEEOT_DpOT0_]+0x58): undefined reference to `pthread_create'
+[3.855s] collect2: error: ld returned 1 exit status
+[3.856s] make[2]: *** [CMakeFiles/learn_thread.dir/build.make:84：learn_thread] 错误 1
+[3.856s] make[1]: *** [CMakeFiles/Makefile2:306：CMakeFiles/learn_thread.dir/all] 错误 2
+[3.856s] make: *** [Makefile:141：all] 错误 2
+[3.858s] Invoked command in '/home/lhc/fishros-/p2/p2_ws/src/build/demo_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/lhc/fishros-/p2/p2_ws/src/build/demo_cpp_pkg -- -j12 -l12

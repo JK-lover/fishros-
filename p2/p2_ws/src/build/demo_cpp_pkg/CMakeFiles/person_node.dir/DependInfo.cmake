@@ -17,6 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/home/lhc/fishros-/p2/p2_ws/src/demo_cpp_pkg/include"
   "/opt/ros/foxy/include"
   )
 

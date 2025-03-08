@@ -1,0 +1,23 @@
+[01m[K/home/lhc/fishros-/p2/p2_ws/src/demo_cpp_pkg/src/learn_thread.cpp:[m[K In member function ‘[01m[Kvoid Download::download(const string&, const string&, const std::function<void(const std::__cxx11::basic_string<char>&, const std::__cxx11::basic_string<char>&)>&)[m[K’:
+[01m[K/home/lhc/fishros-/p2/p2_ws/src/demo_cpp_pkg/src/learn_thread.cpp:18:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcall_back_word_count[m[K’ was not declared in this scope; did you mean ‘[01m[Kcall_back_world_count[m[K’?
+   18 |             [01;31m[Kcall_back_word_count[m[K(path, response->body);
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      |             [32m[Kcall_back_world_count[m[K
+[01m[K/home/lhc/fishros-/p2/p2_ws/src/demo_cpp_pkg/src/learn_thread.cpp:11:138:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcall_back_world_count[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   11 |     void download(const std::string &host, const std::string &path, [01;35m[Kconst std::function<void(const std::string &, const std::string &)> &call_back_world_count[m[K)
+      |                                                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lhc/fishros-/p2/p2_ws/src/demo_cpp_pkg/src/learn_thread.cpp:[m[K In member function ‘[01m[Kvoid Download::start_download(const string&, const string&, const std::function<void(const std::__cxx11::basic_string<char>&, const std::__cxx11::basic_string<char>&)>&)[m[K’:
+[01m[K/home/lhc/fishros-/p2/p2_ws/src/demo_cpp_pkg/src/learn_thread.cpp:24:71:[m[K [01;31m[Kerror: [m[K‘[01m[Kplaceholders_1[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kplaceholders[m[K’?
+   24 |         auto download_fun = std::bind(&Download::download, this, std::[01;31m[Kplaceholders_1[m[K.std::placeholders_2, std::placeholders_3);
+      |                                                                       [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                                                                       [32m[Kplaceholders[m[K
+[01m[K/home/lhc/fishros-/p2/p2_ws/src/demo_cpp_pkg/src/learn_thread.cpp:24:86:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::placeholders_2[m[K’ is not a class member
+   24 |         auto download_fun = std::bind(&Download::download, this, std::placeholders_1.[01;31m[Kstd[m[K::placeholders_2, std::placeholders_3);
+      |                                                                                      [01;31m[K^~~[m[K
+[01m[K/home/lhc/fishros-/p2/p2_ws/src/demo_cpp_pkg/src/learn_thread.cpp:24:112:[m[K [01;31m[Kerror: [m[K‘[01m[Kplaceholders_3[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kplaceholders[m[K’?
+   24 |         auto download_fun = std::bind(&Download::download, this, std::placeholders_1.std::placeholders_2, std::[01;31m[Kplaceholders_3[m[K);
+      |                                                                                                                [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                                                                                                                [32m[Kplaceholders[m[K
+make[2]: *** [CMakeFiles/learn_thread.dir/build.make:63：CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:306：CMakeFiles/learn_thread.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2
