@@ -1,0 +1,2 @@
+Invoking command in '/home/lhc/fishros-/p3/topic_ws/src/build/demo_topic_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/lhc/fishros-/p3/topic_ws/src/build/demo_topic_cpp -- -j12 -l12
+Invoked command in '/home/lhc/fishros-/p3/topic_ws/src/build/demo_topic_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/lhc/fishros-/p3/topic_ws/src/build/demo_topic_cpp -- -j12 -l12

@@ -1,0 +1,28 @@
+[0.011s] Invoking command in '/home/lhc/fishros-/p3/topic_ws/src/build/demo_topic_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/lhc/fishros-/p3/topic_ws/src/build/demo_topic_cpp -- -j12 -l12
+[0.062s] [35m[1mScanning dependencies of target turtle_control[0m
+[0.082s] [ 50%] Built target turtle_circle
+[0.092s] [ 75%] [32mBuilding CXX object CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o[0m
+[4.040s] [100%] [32m[1mLinking CXX executable turtle_control[0m
+[4.270s] [100%] Built target turtle_control
+[4.281s] Invoked command in '/home/lhc/fishros-/p3/topic_ws/src/build/demo_topic_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/lhc/fishros-/p3/topic_ws/src/build/demo_topic_cpp -- -j12 -l12
+[4.301s] Invoking command in '/home/lhc/fishros-/p3/topic_ws/src/build/demo_topic_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/lhc/fishros-/p3/topic_ws/src/build/demo_topic_cpp
+[4.308s] -- Install configuration: ""
+[4.308s] -- Up-to-date: /home/lhc/fishros-/p3/topic_ws/src/install/demo_topic_cpp/lib/demo_topic_cpp/turtle_circle
+[4.308s] -- Installing: /home/lhc/fishros-/p3/topic_ws/src/install/demo_topic_cpp/lib/demo_topic_cpp/turtle_control
+[4.311s] -- Set runtime path of "/home/lhc/fishros-/p3/topic_ws/src/install/demo_topic_cpp/lib/demo_topic_cpp/turtle_control" to ""
+[4.311s] -- Up-to-date: /home/lhc/fishros-/p3/topic_ws/src/install/demo_topic_cpp/share/ament_index/resource_index/package_run_dependencies/demo_topic_cpp
+[4.311s] -- Up-to-date: /home/lhc/fishros-/p3/topic_ws/src/install/demo_topic_cpp/share/ament_index/resource_index/parent_prefix_path/demo_topic_cpp
+[4.312s] -- Up-to-date: /home/lhc/fishros-/p3/topic_ws/src/install/demo_topic_cpp/share/demo_topic_cpp/environment/ament_prefix_path.sh
+[4.312s] -- Up-to-date: /home/lhc/fishros-/p3/topic_ws/src/install/demo_topic_cpp/share/demo_topic_cpp/environment/ament_prefix_path.dsv
+[4.312s] -- Up-to-date: /home/lhc/fishros-/p3/topic_ws/src/install/demo_topic_cpp/share/demo_topic_cpp/environment/path.sh
+[4.312s] -- Up-to-date: /home/lhc/fishros-/p3/topic_ws/src/install/demo_topic_cpp/share/demo_topic_cpp/environment/path.dsv
+[4.312s] -- Up-to-date: /home/lhc/fishros-/p3/topic_ws/src/install/demo_topic_cpp/share/demo_topic_cpp/local_setup.bash
+[4.312s] -- Up-to-date: /home/lhc/fishros-/p3/topic_ws/src/install/demo_topic_cpp/share/demo_topic_cpp/local_setup.sh
+[4.312s] -- Up-to-date: /home/lhc/fishros-/p3/topic_ws/src/install/demo_topic_cpp/share/demo_topic_cpp/local_setup.zsh
+[4.312s] -- Up-to-date: /home/lhc/fishros-/p3/topic_ws/src/install/demo_topic_cpp/share/demo_topic_cpp/local_setup.dsv
+[4.312s] -- Installing: /home/lhc/fishros-/p3/topic_ws/src/install/demo_topic_cpp/share/demo_topic_cpp/package.dsv
+[4.312s] -- Up-to-date: /home/lhc/fishros-/p3/topic_ws/src/install/demo_topic_cpp/share/ament_index/resource_index/packages/demo_topic_cpp
+[4.312s] -- Up-to-date: /home/lhc/fishros-/p3/topic_ws/src/install/demo_topic_cpp/share/demo_topic_cpp/cmake/demo_topic_cppConfig.cmake
+[4.313s] -- Up-to-date: /home/lhc/fishros-/p3/topic_ws/src/install/demo_topic_cpp/share/demo_topic_cpp/cmake/demo_topic_cppConfig-version.cmake
+[4.313s] -- Up-to-date: /home/lhc/fishros-/p3/topic_ws/src/install/demo_topic_cpp/share/demo_topic_cpp/package.xml
+[4.314s] Invoked command in '/home/lhc/fishros-/p3/topic_ws/src/build/demo_topic_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/lhc/fishros-/p3/topic_ws/src/build/demo_topic_cpp
