@@ -110,5 +110,9 @@
     "streambuf": "cpp",
     "cinttypes": "cpp",
     "typeinfo": "cpp"
-  }
+  },
+  "python.analysis.extraPaths": [
+    "./topic_practice_ws/src/build/status_interfaces/rosidl_generator_py",
+    "./topic_practice_ws/build/status_interfaces/rosidl_generator_py"
+  ]
 }

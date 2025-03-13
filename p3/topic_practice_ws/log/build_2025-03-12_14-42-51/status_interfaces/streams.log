@@ -1,0 +1,216 @@
+[0.013s] Invoking command in '/home/lhc/fishros-/p3/topic_practice_ws/build/status_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/lhc/fishros-/p3/topic_practice_ws/src/status_interfaces -DCMAKE_INSTALL_PREFIX=/home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces
+[0.082s] -- The C compiler identification is GNU 9.4.0
+[0.139s] -- The CXX compiler identification is GNU 9.4.0
+[0.145s] -- Check for working C compiler: /usr/bin/cc
+[0.220s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.221s] -- Detecting C compiler ABI info
+[0.297s] -- Detecting C compiler ABI info - done
+[0.304s] -- Detecting C compile features
+[0.304s] -- Detecting C compile features - done
+[0.307s] -- Check for working CXX compiler: /usr/bin/c++
+[0.401s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.402s] -- Detecting CXX compiler ABI info
+[0.502s] -- Detecting CXX compiler ABI info - done
+[0.513s] -- Detecting CXX compile features
+[0.513s] -- Detecting CXX compile features - done
+[0.515s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.540s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.540s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.714s] -- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+[0.740s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.745s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.840s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.869s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.935s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.955s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.983s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.081s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[1.174s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.182s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.202s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.203s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.231s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[1.231s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.231s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.231s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.253s] -- Found PythonExtra: .so  
+[1.296s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.311s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.313s] -- Added test 'lint_cmake' to check CMake code style
+[1.314s] -- Added test 'xmllint' to check XML markup files
+[1.318s] -- Configuring done
+[1.347s] -- Generating done
+[1.357s] -- Build files have been written to: /home/lhc/fishros-/p3/topic_practice_ws/build/status_interfaces
+[1.362s] Invoked command in '/home/lhc/fishros-/p3/topic_practice_ws/build/status_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/lhc/fishros-/p3/topic_practice_ws/src/status_interfaces -DCMAKE_INSTALL_PREFIX=/home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces
+[1.366s] Invoking command in '/home/lhc/fishros-/p3/topic_practice_ws/build/status_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lhc/fishros-/p3/topic_practice_ws/build/status_interfaces -- -j12 -l12
+[1.411s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.411s] [35m[1mScanning dependencies of target status_interfaces__cpp[0m
+[1.423s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.624s] [35m[1mScanning dependencies of target status_interfaces__rosidl_generator_c[0m
+[1.634s] [  9%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_generator_c.dir/rosidl_generator_c/status_interfaces/msg/detail/system_status__functions.c.o[0m
+[1.634s] [  9%] Built target status_interfaces__cpp
+[1.646s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.646s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.646s] [ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.675s] [ 22%] [32m[1mLinking C shared library libstatus_interfaces__rosidl_generator_c.so[0m
+[1.709s] [ 22%] Built target status_interfaces__rosidl_generator_c
+[1.719s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.719s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.853s] [35m[1mScanning dependencies of target status_interfaces__rosidl_typesupport_cpp[0m
+[1.856s] [35m[1mScanning dependencies of target status_interfaces__rosidl_typesupport_introspection_cpp[0m
+[1.861s] [35m[1mScanning dependencies of target status_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[1.865s] [ 32%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/status_interfaces/msg/system_status__type_support.cpp.o[0m
+[1.866s] [ 35%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/status_interfaces/msg/detail/system_status__type_support.cpp.o[0m
+[1.877s] [ 38%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/status_interfaces/msg/detail/dds_fastrtps/system_status__type_support.cpp.o[0m
+[1.913s] [35m[1mScanning dependencies of target status_interfaces__rosidl_typesupport_c[0m
+[1.925s] [ 41%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/status_interfaces/msg/system_status__type_support.cpp.o[0m
+[1.930s] [35m[1mScanning dependencies of target status_interfaces__rosidl_typesupport_introspection_c[0m
+[1.945s] [ 45%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/status_interfaces/msg/detail/system_status__type_support.c.o[0m
+[1.954s] [ 48%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_c.so[0m
+[1.979s] [ 51%] [32m[1mLinking C shared library libstatus_interfaces__rosidl_typesupport_introspection_c.so[0m
+[1.992s] [ 51%] Built target status_interfaces__rosidl_typesupport_c
+[2.011s] [ 51%] Built target status_interfaces__rosidl_typesupport_introspection_c
+[2.090s] [ 54%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_cpp.so[0m
+[2.099s] [ 58%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.132s] [ 58%] Built target status_interfaces__rosidl_typesupport_cpp
+[2.154s] [ 58%] Built target status_interfaces__rosidl_typesupport_introspection_cpp
+[2.215s] [ 61%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.289s] [ 61%] Built target status_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.301s] [ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.510s] [35m[1mScanning dependencies of target status_interfaces__rosidl_typesupport_fastrtps_c[0m
+[2.529s] [ 67%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/status_interfaces/msg/detail/system_status__type_support_c.cpp.o[0m
+[2.805s] [ 70%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.878s] [ 70%] Built target status_interfaces__rosidl_typesupport_fastrtps_c
+[2.890s] [35m[1mScanning dependencies of target status_interfaces[0m
+[2.900s] [ 70%] Built target status_interfaces
+[2.914s] [35m[1mScanning dependencies of target status_interfaces__py[0m
+[2.929s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.304s] [ 74%] Built target status_interfaces__py
+[3.316s] [35m[1mScanning dependencies of target status_interfaces__python[0m
+[3.338s] [ 77%] [32mBuilding C object CMakeFiles/status_interfaces__python.dir/rosidl_generator_py/status_interfaces/msg/_system_status_s.c.o[0m
+[3.420s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/status_interfaces/libstatus_interfaces__python.so[0m
+[3.474s] [ 80%] Built target status_interfaces__python
+[3.483s] [35m[1mScanning dependencies of target status_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[3.484s] [35m[1mScanning dependencies of target status_interfaces__rosidl_typesupport_c__pyext[0m
+[3.484s] [35m[1mScanning dependencies of target status_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[3.499s] [ 83%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.501s] [ 87%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[3.502s] [ 90%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.565s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[3.566s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/status_interfaces/status_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[3.567s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[3.595s] [100%] Built target status_interfaces__rosidl_typesupport_introspection_c__pyext
+[3.595s] [100%] Built target status_interfaces__rosidl_typesupport_c__pyext
+[3.620s] [100%] Built target status_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.633s] Invoked command in '/home/lhc/fishros-/p3/topic_practice_ws/build/status_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lhc/fishros-/p3/topic_practice_ws/build/status_interfaces -- -j12 -l12
+[3.647s] Invoking command in '/home/lhc/fishros-/p3/topic_practice_ws/build/status_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/lhc/fishros-/p3/topic_practice_ws/build/status_interfaces
+[3.654s] -- Install configuration: ""
+[3.654s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/share/ament_index/resource_index/rosidl_interfaces/status_interfaces
+[3.654s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/include/status_interfaces
+[3.654s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/include/status_interfaces/msg
+[3.654s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/include/status_interfaces/msg/detail
+[3.654s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/include/status_interfaces/msg/detail/system_status__struct.h
+[3.655s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/include/status_interfaces/msg/detail/system_status__functions.c
+[3.655s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/include/status_interfaces/msg/detail/system_status__functions.h
+[3.655s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/include/status_interfaces/msg/detail/system_status__type_support.h
+[3.655s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/include/status_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.655s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/include/status_interfaces/msg/system_status.h
+[3.655s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/library_path.sh
+[3.655s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/library_path.dsv
+[3.655s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_c.so
+[3.656s] -- Set runtime path of "/home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_c.so" to ""
+[3.656s] -- Up-to-date: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/include/status_interfaces
+[3.656s] -- Up-to-date: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/include/status_interfaces/msg
+[3.656s] -- Up-to-date: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/include/status_interfaces/msg/detail
+[3.656s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/include/status_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_c.h
+[3.656s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/include/status_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.656s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.657s] -- Set runtime path of "/home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[3.657s] -- Up-to-date: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/include/status_interfaces
+[3.657s] -- Up-to-date: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/include/status_interfaces/msg
+[3.657s] -- Up-to-date: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/include/status_interfaces/msg/detail
+[3.657s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/include/status_interfaces/msg/detail/dds_fastrtps
+[3.657s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/include/status_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_cpp.hpp
+[3.657s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/include/status_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.657s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.657s] -- Set runtime path of "/home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.658s] -- Up-to-date: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/include/status_interfaces
+[3.658s] -- Up-to-date: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/include/status_interfaces/msg
+[3.658s] -- Up-to-date: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/include/status_interfaces/msg/detail
+[3.658s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/include/status_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_c.h
+[3.658s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/include/status_interfaces/msg/detail/system_status__type_support.c
+[3.658s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/include/status_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.658s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_c.so
+[3.658s] -- Set runtime path of "/home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[3.658s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_c.so
+[3.659s] -- Set runtime path of "/home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_c.so" to ""
+[3.659s] -- Up-to-date: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/include/status_interfaces
+[3.659s] -- Up-to-date: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/include/status_interfaces/msg
+[3.659s] -- Up-to-date: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/include/status_interfaces/msg/detail
+[3.659s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/include/status_interfaces/msg/detail/system_status__type_support.hpp
+[3.659s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/include/status_interfaces/msg/detail/system_status__builder.hpp
+[3.659s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/include/status_interfaces/msg/detail/system_status__traits.hpp
+[3.659s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/include/status_interfaces/msg/detail/system_status__struct.hpp
+[3.659s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/include/status_interfaces/msg/system_status.hpp
+[3.659s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/include/status_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.660s] -- Up-to-date: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/include/status_interfaces
+[3.660s] -- Up-to-date: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/include/status_interfaces/msg
+[3.660s] -- Up-to-date: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/include/status_interfaces/msg/detail
+[3.660s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/include/status_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_cpp.hpp
+[3.660s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/include/status_interfaces/msg/detail/system_status__type_support.cpp
+[3.660s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.660s] -- Set runtime path of "/home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[3.660s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_cpp.so
+[3.661s] -- Set runtime path of "/home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_cpp.so" to ""
+[3.661s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/pythonpath.sh
+[3.661s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/pythonpath.dsv
+[3.661s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/lib/python3.8/site-packages/status_interfaces/__init__.py
+[3.687s] Compiling '/home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/lib/python3.8/site-packages/status_interfaces/__init__.py'...
+[3.690s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/lib/python3.8/site-packages/status_interfaces/msg
+[3.690s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/lib/python3.8/site-packages/status_interfaces/msg/_system_status.py
+[3.690s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/lib/python3.8/site-packages/status_interfaces/msg/_system_status_s.c
+[3.691s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/lib/python3.8/site-packages/status_interfaces/msg/__init__.py
+[3.691s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/lib/python3.8/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[3.692s] -- Set runtime path of "/home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/lib/python3.8/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[3.692s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/lib/python3.8/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[3.693s] -- Set runtime path of "/home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/lib/python3.8/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[3.693s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/lib/python3.8/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[3.694s] -- Set runtime path of "/home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/lib/python3.8/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[3.694s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__python.so
+[3.695s] -- Set runtime path of "/home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__python.so" to ""
+[3.695s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/share/status_interfaces/msg/SystemStatus.idl
+[3.695s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/share/status_interfaces/msg/SystemStatus.msg
+[3.696s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/share/ament_index/resource_index/package_run_dependencies/status_interfaces
+[3.696s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/share/ament_index/resource_index/parent_prefix_path/status_interfaces
+[3.697s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/ament_prefix_path.sh
+[3.697s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/ament_prefix_path.dsv
+[3.697s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/path.sh
+[3.698s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/path.dsv
+[3.698s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/share/status_interfaces/local_setup.bash
+[3.698s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/share/status_interfaces/local_setup.sh
+[3.699s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/share/status_interfaces/local_setup.zsh
+[3.699s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/share/status_interfaces/local_setup.dsv
+[3.700s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/share/status_interfaces/package.dsv
+[3.700s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/share/ament_index/resource_index/packages/status_interfaces
+[3.700s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_generator_cExport.cmake
+[3.700s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.700s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.700s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.701s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cExport.cmake
+[3.701s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.701s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_generator_cppExport.cmake
+[3.701s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.701s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.701s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cppExport.cmake
+[3.701s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.702s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.702s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.702s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.702s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.702s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.702s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.702s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.703s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfacesConfig.cmake
+[3.703s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfacesConfig-version.cmake
+[3.703s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/share/status_interfaces/package.xml
+[3.706s] Invoked command in '/home/lhc/fishros-/p3/topic_practice_ws/build/status_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/lhc/fishros-/p3/topic_practice_ws/build/status_interfaces

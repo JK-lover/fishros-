@@ -5,7 +5,10 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "/opt/ros/foxy/include/**",
-                "/home/lhc/fishros-/**"
+                "/home/lhc/fishros-/**",
+                "/usr/include/x86_64-linux-gnu/qt5/**",
+                "/usr/include/x86_64-linux-gnu/qt5/QtWidgets",
+                "${workspaceFolder}/topic_practice_ws/install/status_interfaces/include"
             ],
             "compilerPath": "/usr/bin/gcc",
             "cStandard": "${default}",

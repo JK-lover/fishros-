@@ -1,0 +1,49 @@
+[0.015s] Invoking command in '/home/lhc/fishros-/p3/topic_practice_ws/build/status_display': CMAKE_PREFIX_PATH=/home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces:/home/lhc/fishros-/p3/topic_practice_ws/install/status_display:/home/lhc/fishros-/p3/topic_practice_ws/install/status_publisher:/opt/ros/foxy PYTHONPATH=/home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/lib/python3.8/site-packages:/home/lhc/fishros-/p3/topic_practice_ws/install/status_publisher/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/lhc/fishros-/p3/topic_practice_ws/build/status_display -- -j12 -l12
+[0.040s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.060s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.196s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.221s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.223s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.337s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.374s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.375s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.474s] -- Found status_interfaces: 0.0.0 (/home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake)
+[0.490s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.549s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.550s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.551s] -- Configured cppcheck include dirs: 
+[0.551s] -- Configured cppcheck exclude dirs and/or files: 
+[0.551s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.551s] -- Configured cpplint exclude dirs and/or files: 
+[0.552s] -- Added test 'lint_cmake' to check CMake code style
+[0.553s] -- Added test 'uncrustify' to check C / C++ code style
+[0.553s] -- Configured uncrustify additional arguments: 
+[0.553s] -- Added test 'xmllint' to check XML markup files
+[0.557s] -- Configuring done
+[0.567s] -- Generating done
+[0.571s] -- Build files have been written to: /home/lhc/fishros-/p3/topic_practice_ws/build/status_display
+[0.613s] [ 50%] Built target hello_qt
+[0.616s] [ 75%] [32m[1mLinking CXX executable sys_status_display[0m
+[1.390s] [100%] Built target sys_status_display
+[1.400s] Invoked command in '/home/lhc/fishros-/p3/topic_practice_ws/build/status_display' returned '0': CMAKE_PREFIX_PATH=/home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces:/home/lhc/fishros-/p3/topic_practice_ws/install/status_display:/home/lhc/fishros-/p3/topic_practice_ws/install/status_publisher:/opt/ros/foxy PYTHONPATH=/home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/lib/python3.8/site-packages:/home/lhc/fishros-/p3/topic_practice_ws/install/status_publisher/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/lhc/fishros-/p3/topic_practice_ws/build/status_display -- -j12 -l12
+[1.404s] Invoking command in '/home/lhc/fishros-/p3/topic_practice_ws/build/status_display': CMAKE_PREFIX_PATH=/home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces:/home/lhc/fishros-/p3/topic_practice_ws/install/status_display:/home/lhc/fishros-/p3/topic_practice_ws/install/status_publisher:/opt/ros/foxy PYTHONPATH=/home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/lib/python3.8/site-packages:/home/lhc/fishros-/p3/topic_practice_ws/install/status_publisher/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/lhc/fishros-/p3/topic_practice_ws/build/status_display
+[1.418s] -- Install configuration: ""
+[1.418s] -- Up-to-date: /home/lhc/fishros-/p3/topic_practice_ws/install/status_display/lib/status_display/hello_qt
+[1.418s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_display/lib/status_display/sys_status_display
+[1.422s] -- Set runtime path of "/home/lhc/fishros-/p3/topic_practice_ws/install/status_display/lib/status_display/sys_status_display" to ""
+[1.422s] -- Up-to-date: /home/lhc/fishros-/p3/topic_practice_ws/install/status_display/share/ament_index/resource_index/package_run_dependencies/status_display
+[1.422s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_display/share/ament_index/resource_index/parent_prefix_path/status_display
+[1.422s] -- Up-to-date: /home/lhc/fishros-/p3/topic_practice_ws/install/status_display/share/status_display/environment/ament_prefix_path.sh
+[1.422s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_display/share/status_display/environment/ament_prefix_path.dsv
+[1.422s] -- Up-to-date: /home/lhc/fishros-/p3/topic_practice_ws/install/status_display/share/status_display/environment/path.sh
+[1.423s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_display/share/status_display/environment/path.dsv
+[1.423s] -- Up-to-date: /home/lhc/fishros-/p3/topic_practice_ws/install/status_display/share/status_display/local_setup.bash
+[1.423s] -- Up-to-date: /home/lhc/fishros-/p3/topic_practice_ws/install/status_display/share/status_display/local_setup.sh
+[1.423s] -- Up-to-date: /home/lhc/fishros-/p3/topic_practice_ws/install/status_display/share/status_display/local_setup.zsh
+[1.423s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_display/share/status_display/local_setup.dsv
+[1.423s] -- Installing: /home/lhc/fishros-/p3/topic_practice_ws/install/status_display/share/status_display/package.dsv
+[1.423s] -- Up-to-date: /home/lhc/fishros-/p3/topic_practice_ws/install/status_display/share/ament_index/resource_index/packages/status_display
+[1.423s] -- Up-to-date: /home/lhc/fishros-/p3/topic_practice_ws/install/status_display/share/status_display/cmake/status_displayConfig.cmake
+[1.423s] -- Up-to-date: /home/lhc/fishros-/p3/topic_practice_ws/install/status_display/share/status_display/cmake/status_displayConfig-version.cmake
+[1.423s] -- Up-to-date: /home/lhc/fishros-/p3/topic_practice_ws/install/status_display/share/status_display/package.xml
+[1.425s] Invoked command in '/home/lhc/fishros-/p3/topic_practice_ws/build/status_display' returned '0': CMAKE_PREFIX_PATH=/home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces:/home/lhc/fishros-/p3/topic_practice_ws/install/status_display:/home/lhc/fishros-/p3/topic_practice_ws/install/status_publisher:/opt/ros/foxy PYTHONPATH=/home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/lib/python3.8/site-packages:/home/lhc/fishros-/p3/topic_practice_ws/install/status_publisher/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/lhc/fishros-/p3/topic_practice_ws/build/status_display

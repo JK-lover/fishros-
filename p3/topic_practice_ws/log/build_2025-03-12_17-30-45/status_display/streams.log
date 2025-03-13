@@ -1,0 +1,29 @@
+[0.017s] Invoking command in '/home/lhc/fishros-/p3/topic_practice_ws/build/status_display': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lhc/fishros-/p3/topic_practice_ws/install/status_publisher:/opt/ros/foxy PYTHONPATH=/home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/lib/python3.8/site-packages:/home/lhc/fishros-/p3/topic_practice_ws/install/status_publisher/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/lhc/fishros-/p3/topic_practice_ws/src/status_display -DCMAKE_INSTALL_PREFIX=/home/lhc/fishros-/p3/topic_practice_ws/install/status_display
+[0.036s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.055s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.213s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.250s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.253s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.366s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.411s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.412s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.525s] -- Found status_interfaces: 0.0.0 (/home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake)
+[0.545s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.600s] CMake Error at CMakeLists.txt:38 (install):
+[0.600s]   install TARGETS given unknown argument "status_display".
+[0.600s] 
+[0.601s] 
+[0.604s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.605s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.605s] -- Configured cppcheck include dirs: 
+[0.605s] -- Configured cppcheck exclude dirs and/or files: 
+[0.606s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.606s] -- Configured cpplint exclude dirs and/or files: 
+[0.606s] -- Added test 'lint_cmake' to check CMake code style
+[0.607s] -- Added test 'uncrustify' to check C / C++ code style
+[0.607s] -- Configured uncrustify additional arguments: 
+[0.607s] -- Added test 'xmllint' to check XML markup files
+[0.610s] -- Configuring incomplete, errors occurred!
+[0.611s] See also "/home/lhc/fishros-/p3/topic_practice_ws/build/status_display/CMakeFiles/CMakeOutput.log".
+[0.611s] See also "/home/lhc/fishros-/p3/topic_practice_ws/build/status_display/CMakeFiles/CMakeError.log".
+[0.617s] Invoked command in '/home/lhc/fishros-/p3/topic_practice_ws/build/status_display' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lhc/fishros-/p3/topic_practice_ws/install/status_publisher:/opt/ros/foxy PYTHONPATH=/home/lhc/fishros-/p3/topic_practice_ws/install/status_interfaces/lib/python3.8/site-packages:/home/lhc/fishros-/p3/topic_practice_ws/install/status_publisher/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/lhc/fishros-/p3/topic_practice_ws/src/status_display -DCMAKE_INSTALL_PREFIX=/home/lhc/fishros-/p3/topic_practice_ws/install/status_display
