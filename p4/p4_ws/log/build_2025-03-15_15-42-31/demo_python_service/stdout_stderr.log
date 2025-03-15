@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/demo_python_service/demo_python_service.egg-info/PKG-INFO
+writing dependency_links to ../../build/demo_python_service/demo_python_service.egg-info/dependency_links.txt
+writing entry points to ../../build/demo_python_service/demo_python_service.egg-info/entry_points.txt
+writing requirements to ../../build/demo_python_service/demo_python_service.egg-info/requires.txt
+writing top-level names to ../../build/demo_python_service/demo_python_service.egg-info/top_level.txt
+reading manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+writing manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+running build
+running build_py
+copying demo_python_service/learn_facedetect.py -> /home/lhc/fishros-/p4/p4_ws/build/demo_python_service/build/lib/demo_python_service
+running install
+running install_lib
+copying /home/lhc/fishros-/p4/p4_ws/build/demo_python_service/build/lib/demo_python_service/learn_facedetect.py -> /home/lhc/fishros-/p4/p4_ws/install/demo_python_service/lib/python3.8/site-packages/demo_python_service
+byte-compiling /home/lhc/fishros-/p4/p4_ws/install/demo_python_service/lib/python3.8/site-packages/demo_python_service/learn_facedetect.py to learn_facedetect.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/lhc/fishros-/p4/p4_ws/install/demo_python_service/lib/python3.8/site-packages/demo_python_service-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/demo_python_service/demo_python_service.egg-info to /home/lhc/fishros-/p4/p4_ws/install/demo_python_service/lib/python3.8/site-packages/demo_python_service-0.0.0-py3.8.egg-info
+running install_scripts
+Installing learn_facedetect script to /home/lhc/fishros-/p4/p4_ws/install/demo_python_service/lib/demo_python_service
+writing list of installed files to '/home/lhc/fishros-/p4/p4_ws/build/demo_python_service/install.log'

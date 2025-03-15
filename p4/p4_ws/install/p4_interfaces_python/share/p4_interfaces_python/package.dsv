@@ -1,0 +1,14 @@
+source;share/p4_interfaces_python/hook/cmake_prefix_path.ps1
+source;share/p4_interfaces_python/hook/cmake_prefix_path.dsv
+source;share/p4_interfaces_python/hook/cmake_prefix_path.sh
+source;share/p4_interfaces_python/hook/ld_library_path_lib.ps1
+source;share/p4_interfaces_python/hook/ld_library_path_lib.dsv
+source;share/p4_interfaces_python/hook/ld_library_path_lib.sh
+source;share/p4_interfaces_python/hook/pythonpath.ps1
+source;share/p4_interfaces_python/hook/pythonpath.dsv
+source;share/p4_interfaces_python/hook/pythonpath.sh
+source;share/p4_interfaces_python/local_setup.bash
+source;share/p4_interfaces_python/local_setup.dsv
+source;share/p4_interfaces_python/local_setup.ps1
+source;share/p4_interfaces_python/local_setup.sh
+source;share/p4_interfaces_python/local_setup.zsh

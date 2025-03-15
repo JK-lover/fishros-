@@ -1,0 +1,25 @@
+[0.473s] Invoking command in '/home/lhc/fishros-/p4/p4_ws/src/demo_python_service': AMENT_PREFIX_PATH=/home/lhc/fishros-/p4/p4_ws/install/p4_interfaces_python:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhc/fishros-/p4/p4_ws/install/p4_interfaces_python LD_LIBRARY_PATH=/home/lhc/fishros-/p4/p4_ws/install/p4_interfaces_python/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhc/fishros-/p4/p4_ws/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lhc/fishros-/p4/p4_ws/install/demo_python_service/lib/python3.8/site-packages:/home/lhc/fishros-/p4/p4_ws/install/p4_interfaces_python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/lhc/fishros-/p4/p4_ws/build/demo_python_service/build install --record /home/lhc/fishros-/p4/p4_ws/build/demo_python_service/install.log --install-scripts $base/lib/demo_python_service --single-version-externally-managed install_data
+[0.629s] running egg_info
+[0.630s] writing ../../build/demo_python_service/demo_python_service.egg-info/PKG-INFO
+[0.630s] writing dependency_links to ../../build/demo_python_service/demo_python_service.egg-info/dependency_links.txt
+[0.630s] writing entry points to ../../build/demo_python_service/demo_python_service.egg-info/entry_points.txt
+[0.630s] writing requirements to ../../build/demo_python_service/demo_python_service.egg-info/requires.txt
+[0.631s] writing top-level names to ../../build/demo_python_service/demo_python_service.egg-info/top_level.txt
+[0.660s] reading manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[0.660s] writing manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[0.661s] running build
+[0.661s] running build_py
+[0.661s] copying demo_python_service/learn_facedetect.py -> /home/lhc/fishros-/p4/p4_ws/build/demo_python_service/build/lib/demo_python_service
+[0.661s] running install
+[0.662s] running install_lib
+[0.662s] copying /home/lhc/fishros-/p4/p4_ws/build/demo_python_service/build/lib/demo_python_service/learn_facedetect.py -> /home/lhc/fishros-/p4/p4_ws/install/demo_python_service/lib/python3.8/site-packages/demo_python_service
+[0.663s] byte-compiling /home/lhc/fishros-/p4/p4_ws/install/demo_python_service/lib/python3.8/site-packages/demo_python_service/learn_facedetect.py to learn_facedetect.cpython-38.pyc
+[0.664s] Sorry: IndentationError: unindent does not match any outer indentation level (learn_facedetect.py, line 8)
+[0.664s] running install_data
+[0.664s] running install_egg_info
+[0.666s] removing '/home/lhc/fishros-/p4/p4_ws/install/demo_python_service/lib/python3.8/site-packages/demo_python_service-0.0.0-py3.8.egg-info' (and everything under it)
+[0.666s] Copying ../../build/demo_python_service/demo_python_service.egg-info to /home/lhc/fishros-/p4/p4_ws/install/demo_python_service/lib/python3.8/site-packages/demo_python_service-0.0.0-py3.8.egg-info
+[0.667s] running install_scripts
+[0.679s] Installing learn_facedetect script to /home/lhc/fishros-/p4/p4_ws/install/demo_python_service/lib/demo_python_service
+[0.679s] writing list of installed files to '/home/lhc/fishros-/p4/p4_ws/build/demo_python_service/install.log'
+[0.696s] Invoked command in '/home/lhc/fishros-/p4/p4_ws/src/demo_python_service' returned '0': AMENT_PREFIX_PATH=/home/lhc/fishros-/p4/p4_ws/install/p4_interfaces_python:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhc/fishros-/p4/p4_ws/install/p4_interfaces_python LD_LIBRARY_PATH=/home/lhc/fishros-/p4/p4_ws/install/p4_interfaces_python/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhc/fishros-/p4/p4_ws/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lhc/fishros-/p4/p4_ws/install/demo_python_service/lib/python3.8/site-packages:/home/lhc/fishros-/p4/p4_ws/install/p4_interfaces_python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/lhc/fishros-/p4/p4_ws/build/demo_python_service/build install --record /home/lhc/fishros-/p4/p4_ws/build/demo_python_service/install.log --install-scripts $base/lib/demo_python_service --single-version-externally-managed install_data

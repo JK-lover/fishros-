@@ -1,0 +1,6 @@
+{
+  "package_name": "p4_interfaces_python",
+  "non_idl_tuples": [
+    "/home/lhc/fishros-/p4/p4_ws/src/p4_interfaces_python:srv/FaceDetector.srv"
+  ]
+}
