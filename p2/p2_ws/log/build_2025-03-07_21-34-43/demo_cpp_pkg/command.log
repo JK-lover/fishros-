@@ -1,4 +1,0 @@
-Invoking command in '/home/lhc/fishros-/p2/p2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lhc/fishros-/p2/p2_ws/build/demo_cpp_pkg -- -j12 -l12
-Invoked command in '/home/lhc/fishros-/p2/p2_ws/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lhc/fishros-/p2/p2_ws/build/demo_cpp_pkg -- -j12 -l12
-Invoking command in '/home/lhc/fishros-/p2/p2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/lhc/fishros-/p2/p2_ws/build/demo_cpp_pkg
-Invoked command in '/home/lhc/fishros-/p2/p2_ws/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/lhc/fishros-/p2/p2_ws/build/demo_cpp_pkg

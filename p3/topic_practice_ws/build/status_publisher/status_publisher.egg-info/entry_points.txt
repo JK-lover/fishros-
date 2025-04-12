@@ -1,3 +1,0 @@
-[console_scripts]
-System_status_pub = status_publisher.System_status_pub:main
-

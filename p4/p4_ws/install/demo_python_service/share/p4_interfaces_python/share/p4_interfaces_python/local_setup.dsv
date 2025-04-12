@@ -1,4 +1,0 @@
-source;share/p4_interfaces_python/environment/ament_prefix_path.sh
-source;share/p4_interfaces_python/environment/library_path.sh
-source;share/p4_interfaces_python/environment/path.sh
-source;share/p4_interfaces_python/environment/pythonpath.sh

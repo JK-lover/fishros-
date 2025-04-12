@@ -1,4 +1,0 @@
-Invoking command in '/home/lhc/fishros-/p4/p4_ws/build/p4_interfaces_python': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/lhc/fishros-/p4/p4_ws/build/p4_interfaces_python -- -j12 -l12
-Invoked command in '/home/lhc/fishros-/p4/p4_ws/build/p4_interfaces_python' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/lhc/fishros-/p4/p4_ws/build/p4_interfaces_python -- -j12 -l12
-Invoking command in '/home/lhc/fishros-/p4/p4_ws/build/p4_interfaces_python': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/lhc/fishros-/p4/p4_ws/build/p4_interfaces_python
-Invoked command in '/home/lhc/fishros-/p4/p4_ws/build/p4_interfaces_python' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/lhc/fishros-/p4/p4_ws/build/p4_interfaces_python
