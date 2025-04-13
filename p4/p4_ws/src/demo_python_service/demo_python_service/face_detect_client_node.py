@@ -7,6 +7,10 @@ from ament_index_python.packages import get_package_share_directory
 import os
 from cv_bridge import CvBridge
 import time
+from rcl_interfaces.srv import SetParameters
+from rcl_interfaces.msg import Parameter
+from rcl_interfaces.srv import SetParameters
+from rcl_interfaces.msg import Parameter,ParameterValue,ParameterType
 
 class FaceDetectClientNode(Node):
     def __init__(self):
@@ -16,7 +20,43 @@ class FaceDetectClientNode(Node):
         self.get_logger().info(f"人脸检测的客户端启动！")
         self.client = self.create_client(FaceDetector,'face_detect')
         self.image = cv2.imread(self.default_image_path)
+
+
+    def call_set_parameters(self,parameters):
+        # 1.创建客户端，等待服务上线
+        client = self.create_client(SetParameters,'/face_detect_node/set_parameters')
+        while not client.wait_for_service(timeout_sec=1.0):
+            self.get_logger().info(f"等待参数设置客户端上线！")
+
+        # 2.请求对象设置
+        request = SetParameters.Request()
+        request.parameters = parameters
+
+        # 3.异步调用，等待返回结果
+        future = client.call_async(request)
+        rclpy.spin_until_future_complete(self,future)
+        response = future.result()  #这里的result也是一个接口
+        return response
+    
+    def update_parameter_model(self,model='hog'):
+        # 1.创建参数对象
+        param = Parameter()
+        param.name = 'model'
+
+        # 2.赋值，参数值ParameterValue()也是接口，需要创建
+        param_value = ParameterValue()
+        param_value.type = ParameterType.PARAMETER_STRING
+        param_value.string_value = model
+        param.value = param_value
         
+        # 3.请求参数更新,param是数组
+        response = self.call_set_parameters([param])
+        for result in response.results:
+            if result.successful:
+                self.get_logger().info(f'参数{param.name}设置为{model}')
+            else:
+                self.get_logger().info(f'参数设置失败的原因是{result.reason}')  
+
     def send_request(self):
         while self.client.wait_for_service(timeout_sec=1.0) is False:
             self.get_logger().info(f"等待客户端上线！")
@@ -30,13 +70,16 @@ class FaceDetectClientNode(Node):
         # while not future.done():
         #     time.sleep(1.0) #休眠等待服务处理,休眠线程，有可能造成死循环
         
-        #rclpy.spin_until_future_complete(self,future)  
-        def result_callback(result_future): 
-            response = result_future.result()
-            self.get_logger().info(f"接受响应，共有{response.number}张人脸，耗时{response.use_time}秒")
-            self.show_response(response)
-            
-        future.add_done_callback(result_callback)     
+        rclpy.spin_until_future_complete(self,future)  
+        response = future.result()
+        self.get_logger().info(f"接受响应，共有{response.number}张人脸，耗时{response.use_time}秒")
+
+        # def result_callback(result_future): 
+        #     response = result_future.result()
+        #     self.get_logger().info(f"接受响应，共有{response.number}张人脸，耗时{response.use_time}秒")
+        #     # 防止显示阻塞无法处理多次请求
+        #     # self.show_response(response) 
+        # future.add_done_callback(result_callback)     
         
         
     def show_response(self,response):
@@ -46,14 +89,18 @@ class FaceDetectClientNode(Node):
             bottom = response.bottom [i]            
             left = response.left[i]
             cv2.rectangle(self.image,(left,top),(right,bottom),(0,0,255),5)
-        #结果显示
-        cv2.imshow('RESULT',self.image)
-        cv2.waitKey(0)  #这里也会堵塞进程
+
+        # # 结果显示
+        # cv2.imshow('RESULT',self.image)
+        # cv2.waitKey(0)  #这里也会堵塞进程
     
         
 def main():
     rclpy.init()
     node = FaceDetectClientNode()
+    node.update_parameter_model('hog')
+    node.send_request()
+    node.update_parameter_model('cnn')
     node.send_request()
     rclpy.spin(node)
     rclpy.shutdown()
