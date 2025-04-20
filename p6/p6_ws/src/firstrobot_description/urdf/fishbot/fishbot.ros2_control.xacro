@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <!--定义一个宏-->
+    <xacro:macro name="fishbot_ros2_control">
+        <!-- ros2_control描述硬件资源，name当前硬件资源名称，type硬件资源类型（此处为系统，包含了传感器和执行器） -->
+        <ros2_control name="FishBotGazeboSystem" type="system">
+            <!-- 设置与硬件相关的配置 -->
+            <hardware>
+                <!-- 用于设置驱动库的名字 -->
+                <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+            </hardware>
+            <!--定义了两个关节标签。由于采用 Gazebo 提供数据接口，这里的关节名称要与机器人的保持一致 -->
+            <joint name="left_wheel_joint">
+                <!-- 该关节(执行器)的2个命令接口 -->
+                <command_interface name="velocity">
+                    <param name="min">-1</param>
+                    <param name="max">1</param>
+                </command_interface>
+                <command_interface name="effort">
+                    <param name="min">-0.1</param>
+                    <param name="max">0.1</param>
+                </command_interface>
+                <!-- 该关节的状3个态接口（位置(轮子转了多少度)、速度(轮子转速)、扭矩） -->
+                <state_interface name="position"/>
+                <state_interface name="velocity"/>
+                <state_interface name="effort"/>
+            </joint>
+            <joint name="right_wheel_joint">
+                <command_interface name="velocity">
+                    <param name="min">-1</param>
+                    <param name="max">1</param>
+                </command_interface>
+                <command_interface name="effort">
+                    <param name="min">-0.1</param>
+                    <param name="max">0.1</param>
+                </command_interface>
+                <state_interface name="position"/>
+                <state_interface name="velocity"/>
+                <state_interface name="effort"/>
+            </joint>
+        </ros2_control>
+
+         <!--告知Gazebo加载libgazebo_ros2_control.so库-->
+        <gazebo>
+            <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
+                <parameters>$(find firstrobot_description)/config/fishbot_ros2_controller.yaml</parameters>
+                 <!-- 重映射话题名称 -->
+                <ros>
+                    <remapping>/fishbot_diff_drive_controller/cmd_vel_unstamped:=/cmd_vel</remapping>
+                    <remapping>/fishbot_diff_drive_controller/odom:=/odom</remapping>
+                </ros>
+            </plugin>
+        </gazebo>
+    </xacro:macro>
+</robot>

@@ -1,0 +1,50 @@
+controller_manager:   # 节点名称
+  ros__parameters:
+    update_rate: 100  # 更新频率 Hz
+    use_sim_time: true  # 是否使用仿真时间（true，则与Gazebo仿真世界的时间一致）
+
+    fishbot_joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+    fishbot_effort_controller:  # 指定控制器的节点名称和类型
+      type: effort_controllers/JointGroupEffortController
+    fishbot_diff_drive_controller:
+      type: diff_drive_controller/DiffDriveController
+
+fishbot_effort_controller:
+  ros__parameters: # 指定要控制的关节、要使用的命令接口和状态接口
+    joints:
+      - left_wheel_joint
+      - right_wheel_joint
+    command_interfaces:
+      - effort
+    state_interfaces:
+      - position
+      - velocity
+      - effort
+
+fishbot_diff_drive_controller:
+  ros__parameters:
+    left_wheel_names: ["left_wheel_joint"]
+    right_wheel_names: ["right_wheel_joint"]
+
+    wheel_separation: 0.20  # 轮子间距
+    # wheels_per_side: 1 # actually 2, but both are controlled by 1 signal
+    wheel_radius: 0.032 # 轮子半径
+
+    wheel_separation_multiplier: 1.0  # 轮子间距的倍数
+    left_wheel_radius_multiplier: 1.0  # 左轮半径倍数
+    right_wheel_radius_multiplier: 1.0  # 右轮半径倍数
+
+    publish_rate: 50.0  # 话题发布速率
+    odom_frame_id: odom
+    base_frame_id: base_footprint
+    pose_covariance_diagonal: [0.001, 0.001, 0.0, 0.0, 0.0, 0.01] # 位姿的协方差噪声
+    twist_covariance_diagonal: [0.001, 0.0, 0.0, 0.0, 0.0, 0.01]
+
+    open_loop: true  # 是否开环控制
+    enable_odom_tf: true # 是否使能里程计的TF发布
+
+    cmd_vel_timeout: 0.5  # 接收cmd_vel的超时时间（若超时，可以让机器人停下等）
+    # publish_limited_velocity: true
+    use_stamped_vel: false
+    # velocity_rolling_window_size: 10
